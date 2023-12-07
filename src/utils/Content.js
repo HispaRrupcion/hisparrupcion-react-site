@@ -1,4 +1,4 @@
-export function Main() {
+export function Content() {
     return (
         <main>
             <section>
