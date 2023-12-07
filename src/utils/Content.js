@@ -1,8 +1,6 @@
 export function Main() {
     return (
         <main>
-            <Hero></Hero>
-
             <section>
                 <h2>Estadísticas</h2>
                 <p>El "HispaRruptómetro".</p>
