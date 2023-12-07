@@ -13,3 +13,5 @@ export function Topbar() {
         </header>
     )
 }
+
+export default Topbar;

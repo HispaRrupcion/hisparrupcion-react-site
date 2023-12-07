@@ -88,3 +88,5 @@ export function Main() {
         </main>
     )
 }
+
+export default Content;
