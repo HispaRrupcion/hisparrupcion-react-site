@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: 'Oswald';
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  a {
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+
+  a:hover {
+    color: #003A70;
   }
-}
+
+  a:visited {
+    color: #ccc;
+  }
+
+  a:visited:hover {
+    color: #fff;
+  }
+
+  a.cta-button {
+    color: #333;
+  }
+  
+  header {
+    background-color: #003A70;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  span {
+    color: #003A70;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #003A70!important;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  h2 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #003A70;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #003A70;
+    color: #fff;
+  }
+  
+  .cases {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .case-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .case-card a {
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .static {
+    background-color: #f4f4ff;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    border-top: 20px solid #003A70;
+  }
+
+  .static h3 {
+    text-align: center;
+    font-size: 6em;
+  }
+
+  .static h3, .static p {
+    margin: 0;
+  }
+
+  .static:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .case-card p {
+    color: black!important;
+  }
+  
+  .case-card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .case-card p {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #003A70;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  
+  .statics {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
