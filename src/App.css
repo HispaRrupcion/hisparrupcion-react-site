@@ -32,7 +32,7 @@ body {
   }
 
   a.cta-button {
-    color: #ddd;
+    color: #fff;
   }
   
   header {
@@ -107,7 +107,7 @@ body {
   
   .cta-button {
     display: inline-block;
-    background-color: #fff;
+    background-color: var(--body2);
     color: var(--hispazul);
     padding: 10px 20px;
     text-decoration: none;
