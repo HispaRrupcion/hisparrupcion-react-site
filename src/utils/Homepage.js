@@ -40,9 +40,7 @@ export function Homepage() {
 
             <section>
                 <h2>Últimos casos</h2>
-                <div className="cases" id="casos-container">
-                    <Cases></Cases>
-                </div>
+                <Cases></Cases>
             </section>
         </main>
     )
