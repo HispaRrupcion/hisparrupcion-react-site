@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --hispazul: #003a70;
+}
+
 body {
     font-family: 'Oswald';
     background-color: #f2f2f2;
@@ -13,7 +17,7 @@ body {
   }
 
   a:hover {
-    color: #003A70;
+    color: var(--hispazul);
   }
 
   a:visited {
@@ -29,7 +33,7 @@ body {
   }
   
   header {
-    background-color: #003A70;
+    background-color: var(--hispazul);
     padding: 20px;
   }
   
@@ -47,7 +51,7 @@ body {
   }
   
   span {
-    color: #003A70;
+    color: var(--hispazul);
   }
 
   nav ul li {
@@ -65,7 +69,7 @@ body {
   
   nav ul li a:hover {
     background-color: #fff;
-    color: #003A70!important;
+    color: var(--hispazul)!important;
   }
   
   main {
@@ -101,7 +105,7 @@ body {
   .cta-button {
     display: inline-block;
     background-color: #fff;
-    color: #003A70;
+    color: var(--hispazul);
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -109,7 +113,7 @@ body {
   }
   
   .cta-button:hover {
-    background-color: #003A70;
+    background-color: var(--hispazul);
     color: #fff;
   }
   
@@ -150,7 +154,7 @@ body {
     gap: 0px;
     align-items: center;
     justify-content: center;
-    border-top: 20px solid #003A70;
+    border-top: 20px solid var(--hispazul);
   }
 
   .static h3 {
@@ -186,7 +190,7 @@ body {
   }
   
   footer {
-    background-color: #003A70;
+    background-color: var(--hispazul);
     padding: 20px;
     text-align: center;
   }
