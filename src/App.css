@@ -2,7 +2,7 @@
 
 :root {
     --hispazul: #003a70;
-    --body1: #0A0A0A;
+    --body1: #0F0F0F;
     --body2: #1f1f1f;
     --card: #171717;
 }
@@ -100,7 +100,7 @@ body {
   }
   
   p {
-    color: black;
+    color: #fff;
     font-size: 20px;
     margin-bottom: 20px;
   }
