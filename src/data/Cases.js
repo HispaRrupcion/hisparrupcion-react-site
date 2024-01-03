@@ -20,7 +20,7 @@ const corrupt = [
 
 const Cases = () => {
   return (
-    <div>
+    <div className="cases-container">
       {corrupt.map((item, index) => (
         <div key={index} className="case-card">
           <h3>Trama {item.NAME}</h3>
