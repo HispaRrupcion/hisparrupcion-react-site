@@ -1,4 +1,4 @@
-export function Content() {
+export function Homepage() {
     return (
         <main>
             <section>
@@ -87,4 +87,4 @@ export function Content() {
     )
 }
 
-export default Content;
+export default Homepage;
