@@ -21,7 +21,7 @@ const corrupt = [
 const Cases = () => {
   return (
     <div>
-      {data.map((item, index) => (
+      {corrupt.map((item, index) => (
         <div key={index} className="case-card">
           <h3>Trama {item.NAME}</h3>
           <p>NIT: {item.NIT}</p>
