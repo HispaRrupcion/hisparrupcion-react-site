@@ -2,12 +2,15 @@
 
 :root {
     --hispazul: #003a70;
+    --body1: #0A0A0A;
+    --body2: #1f1f1f;
+    --card: #171717;
 }
 
 body {
     font-family: 'Oswald';
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: var(--body1);;
+    color: #ddd;
     margin: 0;
     padding: 0;
   }
@@ -29,7 +32,7 @@ body {
   }
 
   a.cta-button {
-    color: #333;
+    color: #ddd;
   }
   
   header {
@@ -126,15 +129,16 @@ body {
   }
   
   .case-card {
-    background-color: #fff;
+    background-color: var(--body2);
     padding: 20px;
-    width: 600px;
+    width: calc(50% - 50px);
     height: 300px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     gap: 5px;
     display: flex;
     flex-direction: column;
+    color: #fff;
   }
 
   .case-card a {
@@ -145,7 +149,7 @@ body {
   .static {
     background-color: #f4f4ff;
     padding: 20px;
-    width: 300px;
+    width: calc(50% - 50px);
     height: 200px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
