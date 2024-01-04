@@ -4,7 +4,7 @@ export function Footer() {
             <p>2023 / HispaRrupción.</p>
             <p></p>
             <p>© Copyright del Pueblo y para el Pueblo.</p>
-            <p>Código abierto en GitHub. <a href="#">Ver el repositorio.</a></p>
+            <p>Código abierto en GitHub. <a href="https://github.com/HispaRrupcion">Ver el repositorio.</a></p>
         </footer>
     )
 }
